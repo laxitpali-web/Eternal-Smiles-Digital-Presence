@@ -16,6 +16,39 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Elegant Frosted Glass Overlays for Hero Section Readability */
+.hero-heading-box {
+    background: rgba(6, 20, 46, 0.28); /* Deep navy blue #06142E at 28% opacity */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(127, 231, 214, 0.3); /* Soft teal/mint #7FE7D6 glow */
+    box-shadow: 0 12px 40px rgba(6, 20, 46, 0.15);
+    border-radius: 24px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-paragraph-box {
+    background: rgba(6, 20, 46, 0.24); /* Deep navy blue #06142E at 24% opacity */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(127, 231, 214, 0.2); /* Soft teal/mint #7FE7D6 glow */
+    box-shadow: 0 8px 32px rgba(6, 20, 46, 0.12);
+    border-radius: 20px;
+    padding: 1.25rem 1.75rem;
+    margin-bottom: 2.5rem;
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+
 .animate-on-scroll {
     opacity: 0;
     transform: translateY(20px);
