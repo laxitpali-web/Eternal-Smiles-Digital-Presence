@@ -18,11 +18,11 @@
 
 /* Elegant Frosted Glass Overlays for Hero Section Readability */
 .hero-heading-box {
-    background: rgba(6, 20, 46, 0.28); /* Deep navy blue #06142E at 28% opacity */
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(127, 231, 214, 0.3); /* Soft teal/mint #7FE7D6 glow */
-    box-shadow: 0 12px 40px rgba(6, 20, 46, 0.15);
+    background: rgba(255, 255, 255, 0.58); /* Slightly darker/more opaque light glass for high contrast */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(127, 231, 214, 0.5); /* Soft teal/mint #7FE7D6 glow border */
+    box-shadow: 0 12px 40px rgba(6, 20, 46, 0.08); /* Soft navy shadow for depth */
     border-radius: 24px;
     padding: 1.5rem 2rem;
     margin-bottom: 1.5rem;
@@ -34,11 +34,11 @@
 }
 
 .hero-paragraph-box {
-    background: rgba(6, 20, 46, 0.24); /* Deep navy blue #06142E at 24% opacity */
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(127, 231, 214, 0.2); /* Soft teal/mint #7FE7D6 glow */
-    box-shadow: 0 8px 32px rgba(6, 20, 46, 0.12);
+    background: rgba(255, 255, 255, 0.48); /* Slightly darker/more opaque light glass for high contrast */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(127, 231, 214, 0.4); /* Soft teal/mint #7FE7D6 glow border */
+    box-shadow: 0 8px 32px rgba(6, 20, 46, 0.06); /* Soft navy shadow for depth */
     border-radius: 20px;
     padding: 1.25rem 1.75rem;
     margin-bottom: 2.5rem;
