@@ -1,0 +1,13 @@
+{
+  "name": "eternal-smiles",
+  "version": "1.0.0",
+  "description": "Eternal Smiles Dental Clinic website",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve . -p 3000"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

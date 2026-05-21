@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Eternal Smiles Dental Clinic - Premium Aesthetic & Implant Center</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#000000",
+                        "on-primary-container": "#7c839b",
+                        "error-container": "#ffdad6",
+                        "surface-glass": "rgba(255, 255, 255, 0.7)",
+                        "surface-container-low": "#f3f3f4",
+                        "on-secondary-fixed": "#00201c",
+                        "inverse-surface": "#2f3131",
+                        "on-background": "#1a1c1c",
+                        "inverse-on-surface": "#f0f1f1",
+                        "accent-teal-muted": "#CCFBF1",
+                        "tertiary-fixed": "#ffe088",
+                        "on-error": "#ffffff",
+                        "surface-bright": "#f9f9f9",
+                        "on-secondary-fixed-variant": "#005047",
+                        "primary-fixed": "#dae2fd",
+                        "surface": "#f9f9f9",
+                        "surface-container": "#eeeeee",
+                        "on-tertiary-fixed-variant": "#574500",
+                        "surface-variant": "#e2e2e2",
+                        "on-tertiary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "tertiary": "#735c00",
+                        "surface-container-high": "#e8e8e8",
+                        "surface-container-highest": "#e2e2e2",
+                        "primary-fixed-dim": "#bec6e0",
+                        "surface-dim": "#dadada",
+                        "primary-container": "#131b2e",
+                        "on-tertiary-container": "#4e3d00",
+                        "background": "#f9f9f9",
+                        "outline-variant": "#c6c6cd",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-tint": "#565e74",
+                        "secondary-fixed": "#62fae3",
+                        "secondary-fixed-dim": "#3cddc7",
+                        "on-primary-fixed": "#131b2e",
+                        "tertiary-container": "#cba72f",
+                        "secondary": "#006b5f",
+                        "on-secondary-container": "#007165",
+                        "inverse-primary": "#bec6e0",
+                        "error": "#ba1a1a",
+                        "on-secondary": "#ffffff",
+                        "surface-navy": "#0F172A",
+                        "secondary-container": "#62fae3",
+                        "on-surface-variant": "#45464d",
+                        "text-muted": "#64748B",
+                        "on-primary-fixed-variant": "#3f465c",
+                        "on-primary": "#ffffff",
+                        "outline": "#76777d",
+                        "tertiary-fixed-dim": "#e9c349",
+                        "on-tertiary-fixed": "#241a00",
+                        "on-surface": "#1a1c1c"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    spacing: {
+                        "unit": "8px",
+                        "gutter": "24px",
+                        "section-gap": "120px",
+                        "container-max": "1280px",
+                        "margin-mobile": "20px",
+                        "margin-desktop": "64px"
+                    },
+                    fontFamily: {
+                        "label-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "label-sm": ["Inter"],
+                        "display-lg": ["Playfair Display"],
+                        "headline-sm": ["Playfair Display"],
+                        "body-md": ["Inter"],
+                        "headline-md": ["Playfair Display"],
+                        "headline-lg": ["Playfair Display"]
+                    },
+                    fontSize: {
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "display-lg": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-sm": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "headline-lg": ["48px", { "lineHeight": "56px", "fontWeight": "700" }]
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased overflow-x-hidden selection:bg-secondary-container selection:text-on-secondary-container min-h-screen">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 shadow-sm bg-surface-glass backdrop-blur-md border-b border-white/10 transition-all duration-300" id="navbar">
+    <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 w-full max-w-container-max mx-auto">
+        <div class="flex items-center gap-2">
+            <a class="flex items-center gap-3 group" href="index.html">
+                <img alt="Eternal Smiles Logo" class="w-auto object-contain h-24" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVQ4opYhdnEZz9zR9OW9O3whfUpf21HPnC1wHVJt4azXHlrx1l98LFqGTbF036JrBBeNCbxhPZ5erusi8nt9emxiBX8PoMgFQN8ertDUV2l4hSthUz4O4z_EOVmPq8sgVfgSREg7G7QCdSNV_rSUWax1-jW4o14GECKJwi9dO2SbJmQ3hab9jSdcGBr7XkJRNKbvBbkh3eMDKP4tyGslsOPIRkQstaIf8i6th4tL_6WT_oO0Wv8lIULcZLp5U6eUzyv3tTv5M-ZTI"/>
+                <span class="text-headline-sm font-headline-sm font-bold text-primary dark:text-secondary-fixed">Eternal Smiles Dental Clinic</span>
+            </a>
+        </div>
+        <div class="hidden md:flex gap-8 items-center">
+            <a class="text-label-md font-label-md text-secondary dark:text-secondary-fixed border-b-2 border-secondary opacity-80 hover:opacity-100 transition-all duration-300" href="index.html">Home</a>
+            <a class="text-label-md font-label-md text-primary dark:text-on-primary-fixed-variant hover:text-secondary hover:-translate-y-0.5 transition-all duration-300" href="about.html">About</a>
+            <a class="text-label-md font-label-md text-primary dark:text-on-primary-fixed-variant hover:text-secondary hover:-translate-y-0.5 transition-all duration-300" href="services.html">Services</a>
+            <a class="text-label-md font-label-md text-primary dark:text-on-primary-fixed-variant hover:text-secondary hover:-translate-y-0.5 transition-all duration-300" href="gallery.html">Gallery</a>
+            <a class="text-label-md font-label-md text-primary dark:text-on-primary-fixed-variant hover:text-secondary hover:-translate-y-0.5 transition-all duration-300" href="reviews.html">Reviews</a>
+        </div>
+        <a href="book.html" class="hidden md:flex items-center gap-2 bg-surface-navy text-tertiary-fixed px-6 py-3 rounded-full text-label-md font-label-md hover:bg-surface-navy/90 hover:scale-105 hover:shadow-lg hover:shadow-surface-navy/20 transition-all duration-300">
+            Book Appointment
+            <span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span>
+        </a>
+        <button aria-label="Open Menu" class="md:hidden text-primary">
+            <span class="material-symbols-outlined text-[28px]" data-icon="menu">menu</span>
+        </button>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="relative min-h-[90vh] flex items-center pb-section-gap overflow-hidden min-h-fit pt-32 animate-fade-in-up">
+    <!-- Background Image -->
+    <div class="absolute inset-0 z-0">
+        <div class="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-transparent z-10"></div>
+        <img alt="clinic.jpg" class="w-full h-full object-cover object-center" data-alt="A pristine, high-end dental clinic interior bathed in soft, natural daylight. The space features sleek, modern equipment, minimalist white and soft teal decor, and a calm, spa-like atmosphere. The lighting is bright and airy, contributing to a high-key light mode aesthetic with subtle deep navy architectural accents. The mood is luxurious, sterile yet welcoming, and highly professional." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxZXe8w-Z6_ssx25YyMeRRyvVj1qD8zbm3uyPt0jE9UNtjoTSU0N_lhcS5A-LQRp_3RuCxDp-lMg0qT5TSFEc-aZBKqUOT316Oyt9Ti-9hAbXBnE2x72oTLtvJJjmhoRDJN8gnryzt-aRIqFGwOm7mnubRKO1Dj6f54mpB9DRfglOXM57muzxjw3lGA8wj9qwN5jKjAJO9i9XmEKD24oYcP2ODmInDs3sjkYLp0uDvW1JOd6RNxgVTc07Dt2MWJeSJJ6HRJWOWDZg"/>
+    </div>
+    <div class="relative z-20 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+        <div class="col-span-1 lg:col-span-7 flex flex-col justify-center items-start pt-12 md:pt-0">
+            <div class="inline-flex items-center gap-2 bg-accent-teal-muted text-on-secondary-container px-4 py-2 rounded-full mb-6">
+                <span class="material-symbols-outlined text-[16px]" data-icon="verified" style='font-variation-settings: "FILL" 1;'>verified</span>
+                <span class="text-label-sm font-label-sm uppercase tracking-wider">Premium Care in Ahmedabad</span>
+            </div>
+            <h1 class="text-headline-lg-mobile md:text-display-lg font-headline-lg-mobile md:font-display-lg text-primary leading-tight mb-6">
+                Advanced Dental Care For Lifelong <span class="text-secondary relative">Beautiful Smiles
+                    <svg class="absolute -bottom-2 left-0 w-full h-3 text-tertiary-fixed opacity-60" preserveaspectratio="none" viewbox="0 0 100 10"><path d="M0 5 Q 50 10 100 5" fill="none" stroke="currentColor" stroke-width="4"></path></svg>
+                </span>
+            </h1>
+            <p class="text-body-lg font-body-lg text-on-surface-variant max-w-2xl mb-10">
+                Providing painless, modern, and personalized dental treatments with advanced technology in a luxurious, anxiety-free environment.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                <a href="book.html" class="bg-surface-navy text-tertiary-fixed px-8 py-4 rounded-full text-label-md font-label-md flex items-center justify-center gap-2 hover:bg-surface-navy/90 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                    Book Your Consultation
+                    <span class="material-symbols-outlined text-[20px]" data-icon="calendar_month">calendar_month</span>
+                </a>
+            </div>
+            <!-- Trust Indicators -->
+            <div class="mt-16 grid grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="flex flex-col">
+                    <span class="text-headline-sm font-headline-sm text-surface-navy font-bold"><span class="counter" data-target="5000">5000</span>+</span>
+                    <span class="text-label-sm font-label-sm text-text-muted mt-1">Happy Patients</span>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-headline-sm font-headline-sm text-surface-navy font-bold"><span class="counter" data-target="99">99</span>%</span>
+                    <span class="text-label-sm font-label-sm text-text-muted mt-1">Success Rate</span>
+                </div>
+                <div class="flex flex-col hidden md:flex">
+                    <span class="text-headline-sm font-headline-sm text-surface-navy font-bold"><span class="counter" data-target="15">15</span>+</span>
+                    <span class="text-label-sm font-label-sm text-text-muted mt-1">Years Experience</span>
+                </div>
+            </div>
+        </div>
+        <div class="hidden lg:block col-span-5 relative">
+            <!-- Floating Elements for depth -->
+            <div class="absolute top-10 -left-10 glass-card p-4 rounded-xl flex items-center gap-4 hover:-translate-y-2 hover:shadow-lg transition-transform duration-300 cursor-pointer animate-bounce" style="animation-duration: 3s;">
+                <div class="bg-secondary/10 p-3 rounded-full text-secondary">
+                    <span class="material-symbols-outlined" data-icon="star" style='font-variation-settings: "FILL" 1;'>star</span>
+                </div>
+                <div>
+                    <p class="text-label-md font-label-md text-primary">4.9/5 Rating</p>
+                    <p class="text-label-sm font-label-sm text-text-muted">Google Reviews</p>
+                </div>
+            </div>
+            <div class="absolute bottom-20 -right-10 glass-card p-4 rounded-xl flex items-center gap-4 hover:-translate-y-2 hover:shadow-lg transition-transform duration-300 cursor-pointer animate-bounce" style="animation-duration: 4s; animation-delay: 1s;">
+                <div class="bg-surface-navy p-3 rounded-full text-tertiary-fixed">
+                    <span class="material-symbols-outlined" data-icon="schedule">schedule</span>
+                </div>
+                <div>
+                    <p class="text-label-md font-label-md text-primary">Same Day Implants</p>
+                    <p class="text-label-sm font-label-sm text-text-muted">Available Now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Services Bento Grid -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface max-w-container-max mx-auto animate-on-scroll">
+    <div class="text-center mb-16 max-w-3xl mx-auto">
+        <span class="text-label-md font-label-md text-secondary uppercase tracking-widest mb-2 block">Our Expertise</span>
+        <h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg text-primary mb-6">Comprehensive Dental Care</h2>
+        <p class="text-body-md font-body-md text-on-surface-variant">We utilize cutting-edge technology combined with expert skill to provide a full spectrum of dental treatments tailored to your unique smile.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 auto-rows-[250px]">
+        <!-- Large Feature Card -->
+        <div class="md:col-span-2 lg:col-span-2 row-span-2 glass-card rounded-2xl overflow-hidden group relative flex flex-col justify-end p-8 border border-white hover:shadow-xl hover:-translate-y-2 hover:border-secondary/30 transition-all duration-500">
+            <div class="absolute inset-0 z-0">
+                <img alt="Dental Implants" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A close-up, high-quality image of modern dental implant models resting on a sterile, minimalist teal surface. Soft, diffused lighting highlights the precision of the titanium screws and the natural look of the porcelain crowns. The scene embodies a clean, clinical luxury aesthetic aligned with a light mode color palette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHBYbtAQPI3tTtzTeLlX2z3FmGBFp73nC20Ndkqh0NG4fWh7tgcG89m16XieL8ZLd5oe7vN5Zd0TVdEk9kj94ktDdM0GI-0QOsyl4Eg3xHQL83ax0tUgslsDvaE9rkB4FFraSHFFYnIRlflkFhgVl1aPDP6aB7KgAEbu2HuVOobbuLsIe6eawKblnwlR_mNQG6I2hiGLerBhpinidH_oYHnPyQutYkjqQyBMFQSZZX8cqRvxihCZnS1rdThnllYiL8Eku57pTNriM"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-surface-navy/90 via-surface-navy/40 to-transparent"></div>
+            </div>
+            <div class="relative z-10 text-white">
+                <div class="bg-white/20 backdrop-blur-md w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                    <span class="material-symbols-outlined text-tertiary-fixed" data-icon="implant">surgical</span>
+                </div>
+                <h3 class="text-headline-sm font-headline-sm mb-2 text-white">Dental Implants</h3>
+                <p class="text-body-md font-body-md text-white/80 mb-6 max-w-sm">Permanent, natural-looking solutions for missing teeth using advanced 3D guided technology.</p>
+                <a class="inline-flex items-center gap-2 text-tertiary-fixed text-label-md font-label-md group-hover:gap-4 transition-all" href="services.html">Explore Treatment <span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span></a>
+            </div>
+        </div>
+        <!-- Standard Cards -->
+        <div onclick="window.location.href='services.html'" class="glass-card bg-white rounded-2xl p-6 hover:-translate-y-2 hover:shadow-lg transition-all duration-300 border border-transparent hover:border-secondary/20 flex flex-col group cursor-pointer">
+            <div class="w-12 h-12 bg-accent-teal-muted rounded-full flex items-center justify-center mb-6 text-secondary group-hover:scale-110 transition-transform duration-300">
+                <span class="material-symbols-outlined" data-icon="medical_services">medical_services</span>
+            </div>
+            <h3 class="text-headline-sm font-headline-sm text-primary mb-3">Root Canal Treatment</h3>
+            <p class="text-body-md font-body-md text-on-surface-variant mb-4 flex-grow">Painless, single-visit rotary endodontics to save your natural tooth.</p>
+            <a class="text-secondary text-label-sm font-label-sm inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300" href="services.html">Learn more <span class="material-symbols-outlined text-[14px]" data-icon="chevron_right">chevron_right</span></a>
+        </div>
+        <div onclick="window.location.href='services.html'" class="glass-card bg-white rounded-2xl p-6 hover:-translate-y-2 hover:shadow-lg transition-all duration-300 border border-transparent hover:border-secondary/20 flex flex-col group cursor-pointer">
+            <div class="w-12 h-12 bg-accent-teal-muted rounded-full flex items-center justify-center mb-6 text-secondary group-hover:scale-110 transition-transform duration-300">
+                <span class="material-symbols-outlined" data-icon="face_retouching_natural">face_retouching_natural</span>
+            </div>
+            <h3 class="text-headline-sm font-headline-sm text-primary mb-3">Teeth Whitening</h3>
+            <p class="text-body-md font-body-md text-on-surface-variant mb-4 flex-grow">Professional laser whitening for a radiant smile in just one hour.</p>
+            <a class="text-secondary text-label-sm font-label-sm inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300" href="services.html">Learn more <span class="material-symbols-outlined text-[14px]" data-icon="chevron_right">chevron_right</span></a>
+        </div>
+        <div onclick="window.location.href='services.html'" class="glass-card bg-white rounded-2xl p-6 hover:-translate-y-2 hover:shadow-lg transition-all duration-300 border border-transparent hover:border-secondary/20 flex flex-col group cursor-pointer">
+            <div class="w-12 h-12 bg-accent-teal-muted rounded-full flex items-center justify-center mb-6 text-secondary group-hover:scale-110 transition-transform duration-300">
+                <span class="material-symbols-outlined" data-icon="align_horizontal_center">align_horizontal_center</span>
+            </div>
+            <h3 class="text-headline-sm font-headline-sm text-primary mb-3">Orthodontics</h3>
+            <p class="text-body-md font-body-md text-on-surface-variant mb-4 flex-grow">Clear aligners and modern braces for perfect alignment.</p>
+            <a class="text-secondary text-label-sm font-label-sm inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300" href="services.html">Learn more <span class="material-symbols-outlined text-[14px]" data-icon="chevron_right">chevron_right</span></a>
+        </div>
+        <div onclick="window.location.href='services.html'" class="glass-card bg-surface-navy rounded-2xl p-6 flex flex-col justify-center items-center text-center group border border-surface-navy hover:-translate-y-2 hover:shadow-lg hover:border-tertiary-fixed transition-all duration-300 cursor-pointer">
+            <h3 class="text-headline-sm font-headline-sm text-white mb-4">View All Services</h3>
+            <p class="text-body-md font-body-md text-white/70 mb-6">Discover our complete range of specialized treatments.</p>
+            <button class="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center text-tertiary-fixed group-hover:bg-tertiary-fixed group-hover:text-surface-navy group-hover:scale-110 transition-all duration-300">
+                <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="py-section-gap bg-surface-navy relative overflow-hidden animate-on-scroll">
+    <!-- Abstract Background Shape -->
+    <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-secondary opacity-5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <span class="text-label-md font-label-md text-tertiary-fixed uppercase tracking-widest mb-2 block">The Eternal Difference</span>
+                <h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg text-white mb-8">Redefining the Dental Experience</h2>
+                <div class="space-y-8">
+                    <div class="flex gap-4 items-start group hover:-translate-y-1 transition-transform duration-300">
+                        <div class="mt-1 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 border border-white/20 group-hover:bg-secondary-fixed/20 transition-colors duration-300">
+                            <span class="material-symbols-outlined text-secondary-fixed" data-icon="biotech">biotech</span>
+                        </div>
+                        <div>
+                            <h3 class="text-headline-sm font-headline-sm text-white mb-2 group-hover:text-secondary-fixed transition-colors duration-300">Advanced Technology</h3>
+                            <p class="text-body-md font-body-md text-on-primary-container">We employ cutting-edge 3D imaging and laser dentistry to ensure precise diagnoses and minimally invasive treatments.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-start group hover:-translate-y-1 transition-transform duration-300">
+                        <div class="mt-1 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 border border-white/20 group-hover:bg-secondary-fixed/20 transition-colors duration-300">
+                            <span class="material-symbols-outlined text-secondary-fixed" data-icon="spa">spa</span>
+                        </div>
+                        <div>
+                            <h3 class="text-headline-sm font-headline-sm text-white mb-2 group-hover:text-secondary-fixed transition-colors duration-300">Spa-Like Comfort</h3>
+                            <p class="text-body-md font-body-md text-on-primary-container">Our clinic is designed to reduce anxiety, featuring ambient lighting, noise-canceling headphones, and soothing aromatherapy.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-start group hover:-translate-y-1 transition-transform duration-300">
+                        <div class="mt-1 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 border border-white/20 group-hover:bg-secondary-fixed/20 transition-colors duration-300">
+                            <span class="material-symbols-outlined text-secondary-fixed" data-icon="diamond">diamond</span>
+                        </div>
+                        <div>
+                            <h3 class="text-headline-sm font-headline-sm text-white mb-2 group-hover:text-secondary-fixed transition-colors duration-300">Uncompromising Hygiene</h3>
+                            <p class="text-body-md font-body-md text-on-primary-container">Strict adherence to international sterilization protocols guarantees a safe and pristine environment for every patient.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative hover:-translate-y-2 transition-transform duration-500">
+                <img alt="Modern Dental Technology" class="rounded-2xl shadow-2xl relative z-10" data-alt="A sleek, futuristic digital 3D dental scanner positioned next to a modern dentist chair. The scene is illuminated by cool, focused clinical lighting set against a deep navy background. The equipment suggests high-end luxury and state-of-the-art technological precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2fxtz8xMqFEh-dUg2EDBkqKTNKRbcNjtkBa_nArHF9-1WpBuUeunAByFyt3byiTkuLtYFyu3vV6qtJod-bYcg_altGOLKRRiJjUDj3BF5Pf1MRfjBLes7wty4rPVRdCpfzTPGFZo-QED_HT1OLPPlzO1aiHsP_lJcjUGp2hnesFL8YERr5KG9OalqqryU89FqFQfT2lqsmwjrrKgM-EGFTWd7r-W7fu9hxYt-17tdDIyN3e1TxdSuiquINnRw95I_aAofI30ecNU"/>
+                <!-- Decorative offset frame -->
+                <div class="absolute -top-6 -right-6 w-full h-full border-2 border-secondary/30 rounded-2xl z-0 hidden md:block"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SideNavBar (WhatsApp & Call FABs) -->
+<aside class="fixed bottom-gutter right-gutter flex flex-col gap-4 z-50">
+    <a class="bg-[#25D366] text-white rounded-full p-4 shadow-lg hover:scale-110 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 flex items-center justify-center group relative" href="https://wa.me/919998035395" target="_blank" aria-label="Chat on WhatsApp">
+        <svg class="w-6 h-6 fill-current transition-transform duration-300 group-hover:scale-110" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.458 5.705 1.459h.006c6.56 0 11.9-5.336 11.902-11.894a11.864 11.864 0 00-3.481-8.413z"/>
+        </svg>
+        <span class="absolute right-full mr-4 bg-surface-navy text-white text-label-sm font-label-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-2 group-hover:translate-x-0 whitespace-nowrap">WhatsApp</span>
+    </a>
+    <a class="bg-secondary-container text-on-secondary-container rounded-full p-4 shadow-lg hover:scale-110 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 flex items-center justify-center group relative" href="tel:+919998035395" aria-label="Call Clinic">
+        <svg class="w-6 h-6 fill-current transition-transform duration-300 group-hover:scale-110" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-2.2 2.2a15.045 15.045 0 01-6.59-6.59l2.2-2.21a.96.96 0 00.25-1A11.36 11.36 0 018.82 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.58c0-.55-.45-1-1-1z"/>
+        </svg>
+        <span class="absolute right-full mr-4 bg-surface-navy text-white text-label-sm font-label-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-2 group-hover:translate-x-0 whitespace-nowrap">Call Now</span>
+    </a>
+</aside>
+
+<!-- Footer -->
+<footer class="w-full py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-navy dark:bg-primary-container border-t border-white/10">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter max-w-container-max mx-auto">
+        <div class="col-span-1 md:col-span-1">
+            <span class="text-headline-md font-headline-md text-secondary-fixed mb-4 block">Eternal Smiles</span>
+            <p class="text-body-md font-body-md text-on-primary-container/80 mb-6 max-w-xs">Elevating dental care to an art form. Advanced treatments in a luxurious setting.</p>
+            <div class="flex gap-4">
+                <a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-on-primary-container hover:text-secondary-fixed hover:bg-white/10 hover:scale-110 transition-all duration-300" href="#"><span class="material-symbols-outlined" data-icon="public">public</span></a>
+                <a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-on-primary-container hover:text-secondary-fixed hover:bg-white/10 hover:scale-110 transition-all duration-300" href="#"><span class="material-symbols-outlined" data-icon="photo_camera">photo_camera</span></a>
+            </div>
+        </div>
+        <div class="col-span-1 md:col-span-2 flex gap-16 md:justify-center">
+            <div>
+                <h4 class="text-label-md font-label-md text-white mb-6">Quick Links</h4>
+                <ul class="space-y-4">
+                    <li class=""><a class="text-body-md font-body-md text-on-primary-container/80 hover:text-secondary-fixed transition-colors inline-block hover:translate-x-1 duration-300" href="services.html">Services</a></li>
+                    <li class=""><a class="text-body-md font-body-md text-on-primary-container/80 hover:text-secondary-fixed transition-colors inline-block hover:translate-x-1 duration-300" href="about.html">About Us</a></li>
+                    <li class=""><a class="text-body-md font-body-md text-on-primary-container/80 hover:text-secondary-fixed transition-colors inline-block hover:translate-x-1 duration-300" href="gallery.html">Smile Gallery</a></li>
+                    <li class=""><a class="text-body-md font-body-md text-on-primary-container/80 hover:text-secondary-fixed transition-colors inline-block hover:translate-x-1 duration-300" href="reviews.html">Patient Reviews</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-span-1 md:col-span-1">
+            <h4 class="text-label-md font-label-md text-white mb-6">Contact</h4>
+            <p class="text-body-md font-body-md text-on-primary-container/80 mb-1 font-semibold text-white">Eternal Smiles Dental Clinic</p>
+            <p class="text-body-md font-body-md text-on-primary-container/80 mb-2">1, Sanidhya, Opp. Sardar Patel Hospital,</p>
+            <p class="text-body-md font-body-md text-on-primary-container/80 mb-4">Rambagh, Maninagar, Ahmedabad</p>
+            <a class="text-body-md font-body-md text-secondary-fixed hover:underline hover:-translate-y-0.5 transition-transform duration-300 flex items-center gap-2 mb-2" href="https://www.instagram.com/eternalsmilesdental" target="_blank">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                </svg>
+                @eternalsmilesdental
+            </a>
+            <a class="text-body-md font-body-md text-secondary-fixed hover:underline hover:-translate-y-0.5 transition-transform duration-300 flex items-center gap-2 mb-2" href="tel:+919998035395">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-2.2 2.2a15.045 15.045 0 01-6.59-6.59l2.2-2.21a.96.96 0 00.25-1A11.36 11.36 0 018.82 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.58c0-.55-.45-1-1-1z"/>
+                </svg>
+                +91 99980 35395
+            </a>
+            <a class="text-body-md font-body-md text-secondary-fixed hover:underline hover:-translate-y-0.5 transition-transform duration-300 flex items-center gap-2" href="mailto:hello@eternalsmiles.com">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                hello@eternalsmiles.com
+            </a>
+        </div>
+    </div>
+    <div class="max-w-container-max mx-auto mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-label-sm font-label-sm text-on-primary-container/60">© 2026 Eternal Smiles Dental Clinic. Ahmedabad.</p>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
