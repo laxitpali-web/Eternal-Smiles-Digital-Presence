@@ -18,12 +18,12 @@
 
 /* Elegant Frosted Glass Overlays for Hero Section Readability */
 .hero-heading-box {
-    background: rgba(28, 28, 30, 0.42); /* Transparent dark grey */
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.15); /* Sleek light border */
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15); /* Smooth drop shadow */
-    border-radius: 24px;
+    background: rgba(6, 20, 46, 0.35); /* Transparent deep navy blue matching website theme */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(127, 231, 214, 0.2); /* Thin mint/teal border with low opacity for subtle glow */
+    box-shadow: 0 12px 40px rgba(6, 20, 46, 0.25), 0 0 15px rgba(127, 231, 214, 0.1); /* Soft shadow and subtle mint/teal glow */
+    border-radius: 20px; /* Rounded corners around 20px */
     padding: 1.5rem 2rem;
     margin-bottom: 1.5rem;
     display: inline-block;
@@ -31,15 +31,16 @@
     max-width: 100%;
     text-align: left;
     transition: all 0.3s ease-in-out;
+    animation: heroBoxFadeIn 1s ease-out forwards;
 }
 
 .hero-paragraph-box {
-    background: rgba(28, 28, 30, 0.42); /* Transparent dark grey */
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.12); /* Sleek light border */
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12); /* Smooth drop shadow */
-    border-radius: 20px;
+    background: rgba(6, 20, 46, 0.35); /* Transparent deep navy blue matching website theme */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.12); /* Thin border with low opacity */
+    box-shadow: 0 8px 32px rgba(6, 20, 46, 0.2); /* Soft shadow for depth */
+    border-radius: 20px; /* Rounded corners around 20px */
     padding: 1.25rem 1.75rem;
     margin-bottom: 2.5rem;
     display: inline-block;
@@ -47,6 +48,18 @@
     max-width: 100%;
     text-align: left;
     transition: all 0.3s ease-in-out;
+    animation: heroBoxFadeIn 1.2s ease-out forwards;
+}
+
+@keyframes heroBoxFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .animate-on-scroll {
